@@ -1,0 +1,16 @@
+data:
+  synthetic: true
+  frames: 8
+  normalization: visible_clip
+  hidden_policy: raw
+  debug_per_class: 2
+model:
+  name: tcn
+  input_mode: coords_only
+  hidden_size: 8
+train:
+  seed: 42
+  epochs: 2
+  batch_size: 6
+  device: cpu
+  output_dir: outputs/debug

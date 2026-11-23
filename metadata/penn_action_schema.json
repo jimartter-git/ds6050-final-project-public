@@ -1,0 +1,33 @@
+{
+  "fields": {
+    "x": "x",
+    "y": "y",
+    "visibility": "visibility",
+    "action": "action",
+    "split": "train",
+    "nframes": "nframes",
+    "dimensions": "dimensions"
+  },
+  "train_value": 1,
+  "test_value": -1,
+  "classes": [
+    "baseball_pitch",
+    "baseball_swing",
+    "bench_press",
+    "bowl",
+    "clean_and_jerk",
+    "golf_swing",
+    "jump_rope",
+    "jumping_jacks",
+    "pullup",
+    "pushup",
+    "situp",
+    "squat",
+    "strum_guitar",
+    "tennis_forehand",
+    "tennis_serve"
+  ],
+  "joint_count": 13,
+  "bbox_format": null,
+  "dimensions_order": "hwt"
+}

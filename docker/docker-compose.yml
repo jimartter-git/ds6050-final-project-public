@@ -1,0 +1,12 @@
+services:
+  dev:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: ds6050-penn-action
+    working_dir: /workspace
+    volumes:
+      - ..:/workspace
+    shm_size: 2gb
+    stdin_open: true
+    tty: true

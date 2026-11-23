@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/*
+!data/.gitkeep
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.mat
+*.tar.gz
+.env
+.DS_Store
